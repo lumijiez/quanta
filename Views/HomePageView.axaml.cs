@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace Quanta.Views;
 
-public partial class AlbumView : UserControl
+public partial class HomePageView : UserControl
 {
-    public AlbumView()
+    public HomePageView()
     {
         InitializeComponent();
     }

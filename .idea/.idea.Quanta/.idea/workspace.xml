@@ -8,33 +8,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="512bfc3c-3344-4819-b6d7-78f60d56c631" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/avalonia.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/quanta-logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Icons.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Album.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quanta.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quanta.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/AlbumViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/MusicStoreViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/AlbumView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/AlbumView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MusicStoreView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MusicStoreView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/QContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainStyles.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/HomePageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/SettingsPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/HomePageView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/SettingsPageView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Icons.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Album.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quanta.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Quanta.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/AlbumViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ProductViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/MusicStoreViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/AlbumView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/AlbumView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MusicStoreView.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MusicStoreView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/HomePageView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/SettingsPageView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,31 +51,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lumijiez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lumijiez/dotnet-quanta.git&quot;,
+    &quot;accountId&quot;: &quot;10948fec-c06e-46f5-b0d4-4092b78e2306&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mwDuY4RA2Wpbnm8ITdUH0dXSUV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Quanta.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Quanta.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Quanta" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -100,7 +116,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727978968657</updated>
-      <workItem from="1727978970040" duration="4264000" />
+      <workItem from="1727978970040" duration="7100000" />
+      <workItem from="1727988064991" duration="2404000" />
+      <workItem from="1727990502079" duration="718000" />
+      <workItem from="1728156252340" duration="11000" />
+      <workItem from="1728213904427" duration="6550000" />
+      <workItem from="1728243190408" duration="10000" />
+      <workItem from="1728243219027" duration="3534000" />
     </task>
     <servers />
   </component>

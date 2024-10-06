@@ -1,0 +1,28 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20"></Border>
+    </Design.PreviewWith>
+
+    <Style Selector="Button.ToolbarButton">
+        <Setter Property="Padding" Value="10,5" />
+        <Setter Property="Background" Value="#555" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="BorderBrush" Value="#777" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="5" />
+        
+        <Style Selector="^:pointerover">
+            <Setter Property="Background" Value="#666" />
+            <Setter Property="BorderBrush" Value="#999" />
+        </Style>
+    </Style>
+    
+    <Style Selector="StackPanel.Toolbar">
+        <Setter Property="Background" Value="#333" />
+
+        <Setter Property="Spacing" Value="10" />
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+</Styles>

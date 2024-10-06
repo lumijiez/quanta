@@ -5,7 +5,21 @@
       <map>
         <entry key="App.axaml" value="Quanta.csproj" />
         <entry key="Icons.axaml" value="Quanta.csproj" />
+        <entry key="MainStyles.axaml" value="Quanta.csproj" />
+        <entry key="Views/A.axaml" value="Quanta.csproj" />
+        <entry key="Views/AlbumView.axaml" value="Quanta.csproj" />
+        <entry key="Views/B.axaml" value="Quanta.csproj" />
+        <entry key="Views/HomePageView.axaml" value="Quanta.csproj" />
+        <entry key="Views/Main.axaml" value="Quanta.csproj" />
         <entry key="Views/MainWindow.axaml" value="Quanta.csproj" />
+        <entry key="Views/MusicStoreView.axaml" value="Quanta.csproj" />
+        <entry key="Views/MusicStoreWindow.axaml" value="Quanta.csproj" />
+        <entry key="Views/ProductView.axaml" value="Quanta.csproj" />
+        <entry key="Views/SettingsPageView.axaml" value="Quanta.csproj" />
+        <entry key="Views/SubviewA.axaml" value="Quanta.csproj" />
+        <entry key="Views/SubviewB.axaml" value="Quanta.csproj" />
+        <entry key="Views/TestDialog.axaml" value="Quanta.csproj" />
+        <entry key="Views/TestView.axaml" value="Quanta.csproj" />
       </map>
     </option>
   </component>

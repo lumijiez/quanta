@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace Quanta.Views;
 
-public partial class TestDialog : Window
+public partial class SettingsPageView : UserControl
 {
-    public TestDialog()
+    public SettingsPageView()
     {
         InitializeComponent();
     }
