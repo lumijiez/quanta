@@ -1,30 +1,39 @@
+using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using DynamicData;
 using Quanta.Data;
 using Quanta.Models;
-using Quanta.Services;
+using ReactiveUI;
 
 namespace Quanta.ViewModels;
 
 public class ProductViewModel : ViewModelBase
 {
-    public ObservableCollection<Product> Products { get; set; } = [];
-    public IProductRepository ProductRepository { get; set; }
+    public ProductViewModel() {}
     
-    public ProductViewModel()
+    public ProductViewModel(IProductRepository productRepository)
     {
-        ProductRepository = ServiceLocator.ServiceProvider.GetRequiredService<IProductRepository>();
-        _ = LoadProductsAsync();
+        ProductRepository = productRepository;
     }
+    
+    public ObservableCollection<Product> Products { get; set; } = [];
+    private IProductRepository ProductRepository { get; set; } = null!;
+    
+    private bool _isBusy = false;
 
-    private async Task LoadProductsAsync()
+    public bool IsBusy
     {
-        var products = ProductRepository.GetAll();
-        foreach (var product in products)
-        {
-            Products.Add(product);
-        }
+        get => _isBusy;
+        set => this.RaiseAndSetIfChanged(ref _isBusy, value);
+    }
+    
+    public async Task LoadProductsAsync()
+    {
+        IsBusy = true;
+        Products.Clear();
+        var products = await Task.Run(() => ProductRepository.FindByIdRangeAsync(1, 1000));
+        foreach (var product in products) Products.Add(product); 
+        IsBusy = false;
     }
 }

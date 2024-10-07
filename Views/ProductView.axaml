@@ -5,17 +5,30 @@
              xmlns:vm="clr-namespace:Quanta.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:DataType="vm:ProductViewModel"
-             x:Class="Quanta.Views.ProductView">
-    <StackPanel Margin="10">
-        <ItemsControl ItemsSource="{Binding Products}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Spacing="5">
-                        <TextBlock Text="{Binding Name}" />
-                        <TextBlock Text="{Binding Price, StringFormat='C'}" />
-                    </StackPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-    </StackPanel>
+             x:Class="Quanta.Views.ProductView"
+             xmlns:li="using:LoadingIndicators.Avalonia">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <li:LoadingIndicator Width="50" Height="50" IsActive="{Binding IsBusy}" Mode="Wave" SpeedRatio="1.2" />
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Visible" Height="600">
+            <ItemsControl ItemsSource="{Binding Products}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="5">
+                            <TextBlock Text="{Binding Name}" />
+                            <TextBlock Text="{Binding Price, StringFormat='C'}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
 </UserControl>

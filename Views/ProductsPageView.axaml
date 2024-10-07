@@ -3,15 +3,16 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Quanta.Views.SettingsPageView"
-             x:DataType="vm:SettingsPageViewModel"
+             x:Class="Quanta.Views.ProductsPageView"
+             x:DataType="vm:ProductsPageViewModel"
              xmlns:vm="clr-namespace:Quanta.ViewModels">
     
     <UserControl.DataContext>
-        <vm:SettingsPageViewModel />
+        <vm:ProductsPageViewModel />
     </UserControl.DataContext>
     
     <StackPanel>
+        <Button Command="{Binding RefreshListCommand}">Refresh</Button>
         <ContentControl Content="{Binding ProductView}"></ContentControl>
     </StackPanel>
     

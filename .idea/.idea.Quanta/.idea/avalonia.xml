@@ -15,6 +15,7 @@
         <entry key="Views/MusicStoreView.axaml" value="Quanta.csproj" />
         <entry key="Views/MusicStoreWindow.axaml" value="Quanta.csproj" />
         <entry key="Views/ProductView.axaml" value="Quanta.csproj" />
+        <entry key="Views/ProductsPageView.axaml" value="Quanta.csproj" />
         <entry key="Views/SettingsPageView.axaml" value="Quanta.csproj" />
         <entry key="Views/SubviewA.axaml" value="Quanta.csproj" />
         <entry key="Views/SubviewB.axaml" value="Quanta.csproj" />

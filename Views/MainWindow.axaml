@@ -22,7 +22,7 @@
                         <Button Command="{Binding NavigateHomeCommand}" 
                                 Content="Home"
                                 Classes="ToolbarButton"/>
-                        <Button Command="{Binding NavigateSettingsCommand}" 
+                        <Button Command="{Binding NavigateProductsCommand}" 
                                 Content="Settings"
                                 Classes="ToolbarButton"/>
                 </StackPanel>

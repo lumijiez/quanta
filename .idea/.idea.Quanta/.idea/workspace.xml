@@ -8,37 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="512bfc3c-3344-4819-b6d7-78f60d56c631" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/QContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainStyles.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/ServiceLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/HomePageViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/SettingsPageViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/HomePageView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/SettingsPageView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aggregates/MainPageAggregator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/ProductsPageViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quanta/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Icons.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Album.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quanta.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Quanta.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/AlbumViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ProductViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/ServiceLocator.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/MusicStoreViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/ProductViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ProductViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/SettingsPageViewModel.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/AlbumView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/AlbumView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductView.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/MusicStoreView.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/MusicStoreView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/HomePageView.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/MusicStoreWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/SettingsPageView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ProductView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/SettingsPageView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductsPageView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/SettingsPageView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ProductsPageView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +51,38 @@
     &quot;accountId&quot;: &quot;10948fec-c06e-46f5-b0d4-4092b78e2306&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -85,6 +105,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -122,16 +143,29 @@
       <workItem from="1728156252340" duration="11000" />
       <workItem from="1728213904427" duration="6550000" />
       <workItem from="1728243190408" duration="10000" />
-      <workItem from="1728243219027" duration="3534000" />
+      <workItem from="1728243219027" duration="10555000" />
+      <workItem from="1728294856736" duration="6262000" />
     </task>
+    <task id="LOCAL-00001" summary="working service locator">
+      <option name="closed" value="true" />
+      <created>1728248818106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728248818106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="working service locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="working service locator" />
   </component>
 </project>

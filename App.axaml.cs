@@ -19,13 +19,15 @@ public partial class App : Application
     {
         var serviceCollection = new ServiceCollection();
         serviceCollection.AddCommonServices();
-        ServiceLocator.ServiceProvider = serviceCollection.BuildServiceProvider();
+        var serviceProvider = serviceCollection.BuildServiceProvider();
+        
+        var vm = serviceProvider.GetRequiredService<MainWindowViewModel>();
         
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
             desktop.MainWindow = new MainWindow()
             {
-                DataContext = new MainWindowViewModel()
+                DataContext = vm
             };
         }
 
